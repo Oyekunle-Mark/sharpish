@@ -16,7 +16,17 @@ namespace cylinder
             string heightAsString = Console.ReadLine();
             double height = Convert.ToDouble(heightAsString);
 
-            Console.WriteLine("You entered: " + radius + " and " + height);
+            // represent the pi constant
+            double pi = 3.141592654;
+
+            // calculate the volume
+            double volume = pi * radius * radius * height;
+            // calculate the surface area
+            double surfaceArea = 2 * pi * radius * (radius + height);
+
+            // prints result of  computation
+            Console.WriteLine($"The volume of the cylinder is :{volume} cubic units.");
+            Console.WriteLine($"The surface area of the cylinder is: {surfaceArea} square units.");
         }
     }
 }
