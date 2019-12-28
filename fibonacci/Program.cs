@@ -15,5 +15,9 @@ namespace fibonacci
             int fibonacciNumber = GetFibonacciNumber(number);
             Console.WriteLine($"The {number}nth number is {fibonacciNumber}");
         }
+
+        static int GetFibonacciNumber(int position) {
+            return position;
+        }
     }
 }
