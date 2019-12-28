@@ -42,6 +42,9 @@ namespace basic_calculator
                 case '%':
                     result = firstOperand % secondOperand;
                     break;
+                case '^':
+                    result = Math.Pow(firstOperand, secondOperand);
+                    break;
                 default:
                     Console.WriteLine($"Invalid operator {operation}");
                     return;
