@@ -7,7 +7,7 @@ namespace reverse_array
         static void Main(string[] args)
         {
             // call generate numbers to get array
-            int[] numberArray = GenerateNumbers(10);
+            int[] numberArray = GenerateNumbers(9);
             // pass the number to reverse number
             ReverseArray(numberArray);
             // print number
