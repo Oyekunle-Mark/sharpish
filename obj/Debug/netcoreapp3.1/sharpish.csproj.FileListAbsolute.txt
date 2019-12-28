@@ -1,0 +1,11 @@
+/Users/lambda/myWorks/sharpish/obj/Debug/netcoreapp3.1/sharpish.csprojAssemblyReference.cache
+/Users/lambda/myWorks/sharpish/obj/Debug/netcoreapp3.1/sharpish.AssemblyInfoInputs.cache
+/Users/lambda/myWorks/sharpish/obj/Debug/netcoreapp3.1/sharpish.AssemblyInfo.cs
+/Users/lambda/myWorks/sharpish/bin/Debug/netcoreapp3.1/sharpish
+/Users/lambda/myWorks/sharpish/bin/Debug/netcoreapp3.1/sharpish.deps.json
+/Users/lambda/myWorks/sharpish/bin/Debug/netcoreapp3.1/sharpish.runtimeconfig.json
+/Users/lambda/myWorks/sharpish/bin/Debug/netcoreapp3.1/sharpish.runtimeconfig.dev.json
+/Users/lambda/myWorks/sharpish/bin/Debug/netcoreapp3.1/sharpish.dll
+/Users/lambda/myWorks/sharpish/bin/Debug/netcoreapp3.1/sharpish.pdb
+/Users/lambda/myWorks/sharpish/obj/Debug/netcoreapp3.1/sharpish.dll
+/Users/lambda/myWorks/sharpish/obj/Debug/netcoreapp3.1/sharpish.pdb
