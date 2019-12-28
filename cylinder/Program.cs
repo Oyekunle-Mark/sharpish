@@ -20,7 +20,7 @@ namespace cylinder
             Console.WriteLine();
 
             // represent the pi constant
-            double pi = 3.141592654;
+            double pi = Math.PI;
 
             // calculate the volume
             double volume = pi * radius * radius * height;
