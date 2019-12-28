@@ -20,9 +20,35 @@ namespace basic_calculator
 
             // get the operator
             Console.Write("Enter operator: ");
-            string operation = Console.ReadLine();
-            
-            Console.WriteLine("Operation is " + firstOperand + operation + secondOperand);
+            char operation = (char)Console.Read();
+
+            // result will hold the result of the operation
+            double result;
+
+            switch (operation)
+            {
+                case '+':
+                    result = firstOperand + secondOperand;
+                    break;
+                case '-':
+                    result = firstOperand - secondOperand;
+                    break;
+                case '*':
+                    result = firstOperand * secondOperand;
+                    break;
+                case '/':
+                    result = firstOperand / secondOperand;
+                    break;
+                case '%':
+                    result = firstOperand % secondOperand;
+                    break;
+                default:
+                    Console.WriteLine($"Invalid operator {operation}");
+                    return;
+            }
+
+            // print result
+            Console.WriteLine($"The value of {firstOperand} {operation} {secondOperand} is {result}");
         }
     }
 }
