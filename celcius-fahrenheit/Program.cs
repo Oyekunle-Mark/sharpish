@@ -10,7 +10,10 @@ namespace celcius_fahrenheit
             Console.Write("Enter the temperature in Fahrenheit: ");
 
             string fahrenheitTemp = Console.ReadLine();
-            Console.WriteLine($"You entered: {fahrenheitTemp}");
+            double fahrenheit = Convert.ToDouble(fahrenheitTemp);
+
+            double celcius = (5.0 / 9.0) * (fahrenheit - 32.0);
+            Console.WriteLine($"{fahrenheit}F is equivalent to {celcius}C.");
         }
     }
 }
