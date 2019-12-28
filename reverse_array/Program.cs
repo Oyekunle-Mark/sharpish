@@ -6,7 +6,9 @@ namespace reverse_array
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // call generate numbers to get array
+            // pass the number to reverse number
+            // print number
         }
     }
 }
