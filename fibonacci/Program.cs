@@ -6,7 +6,7 @@ namespace fibonacci
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("This program gets an input from the user and prints out the number at that position in the Fibonacci sequence!\n");
         }
     }
 }
