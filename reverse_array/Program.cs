@@ -14,21 +14,24 @@ namespace reverse_array
             PrintArray(numberArray);
         }
 
-        static int[] GenerateNumbers(int length) {
+        static int[] GenerateNumbers(int length)
+        {
             int[] numbers = new int[length];
 
-            for (int i = 0; i < length; i++) {
+            for (int i = 0; i < length; i++)
                 numbers[i] = i;
-            }
+
 
             return numbers;
         }
 
-        static void ReverseArray(int[] array) {
+        static void ReverseArray(int[] array)
+        {
             int start = 0;
             int end = array.Length - 1;
 
-            while(start < end) {
+            while (start < end)
+            {
                 int temp = array[start];
                 array[start] = array[end];
                 array[end] = array[start];
@@ -38,10 +41,10 @@ namespace reverse_array
             }
         }
 
-        static void PrintArray(int[] array) {
-            foreach(int value in array) {
+        static void PrintArray(int[] array)
+        {
+            foreach (int value in array)
                 Console.Write($"{value }");
-            }
         }
     }
 }
