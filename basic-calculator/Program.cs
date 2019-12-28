@@ -51,7 +51,7 @@ namespace basic_calculator
             }
 
             // print result
-            Console.WriteLine($"The value of {firstOperand} {operation} {secondOperand} is {result}");
+            Console.WriteLine($"\nThe value of {firstOperand} {operation} {secondOperand} is {result}");
         }
     }
 }
