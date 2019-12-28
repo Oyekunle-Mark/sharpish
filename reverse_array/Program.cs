@@ -37,5 +37,11 @@ namespace reverse_array
                 end--;
             }
         }
+
+        static void PrintArray(int[] array) {
+            foreach(int value in array) {
+                Console.Write($"{value }");
+            }
+        }
     }
 }
