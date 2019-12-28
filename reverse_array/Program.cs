@@ -19,7 +19,7 @@ namespace reverse_array
             int[] numbers = new int[length];
 
             for (int i = 0; i < length; i++)
-                numbers[i] = i;
+                numbers[i] = i + 1;
 
 
             return numbers;
@@ -34,7 +34,7 @@ namespace reverse_array
             {
                 int temp = array[start];
                 array[start] = array[end];
-                array[end] = array[start];
+                array[end] = temp;
 
                 start++;
                 end--;
@@ -44,7 +44,7 @@ namespace reverse_array
         static void PrintArray(int[] array)
         {
             foreach (int value in array)
-                Console.Write($"{value }");
+                Console.Write($"{value } \n");
         }
     }
 }
