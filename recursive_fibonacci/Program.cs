@@ -7,8 +7,10 @@ namespace recursive_fibonacci
         static void Main(string[] args)
         {
             // returns the nth fibonacci number from the fibonacci sequence using recursion
-            // TODO: remove the hard coded inputNumber
-            int inputNumber = 11;
+            Console.WriteLine("This program prints the nth Fibonacci Number from the Fibonacci sequence!\n");
+            Console.Write("Enter the nth Fibonacci number to print: ");
+            string inputString = Console.ReadLine();
+            int inputNumber = Convert.ToInt32(inputString);
             // will hold the nth fibonacci number
             int answer;
             // create an array of length inputNumber 
