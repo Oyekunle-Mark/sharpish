@@ -19,5 +19,13 @@ namespace Book
             this.title = title;
             this.author = author;
         }
+
+        public Book(string title, string author, int pages, int wordCount)
+        {
+            this.title = title;
+            this.author = author;
+            this.pages = pages;
+            this.wordCount = wordCount;
+        }
     }
 }
