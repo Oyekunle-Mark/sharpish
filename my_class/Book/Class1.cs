@@ -2,7 +2,11 @@
 
 namespace Book
 {
-    public class Class1
+    public class Book
     {
+        private string title;
+        private string author;
+        private int pages;
+        private int wordCount;
     }
 }
