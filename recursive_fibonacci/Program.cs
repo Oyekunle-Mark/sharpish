@@ -9,6 +9,8 @@ namespace recursive_fibonacci
             // returns the nth fibonacci number from the fibonacci sequence using recursion
             // TODO: remove the hard coded inputNumber
             int inputNumber = 10;
+            // will hold the nth fibonacci number
+            int answer;
             // create an array of length inputNumber 
             int[] fibNumbers = new int[inputNumber];
             //and add the first and second number
