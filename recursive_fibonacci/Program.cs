@@ -6,7 +6,10 @@ namespace recursive_fibonacci
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // returns the nth fibonacci number from the fibonacci sequence using recursion
+            // check if the number is 1 or 2
+                // return 1
+            // nthNumber will the result of calling FindFibonacciNumber
         }
     }
 }
