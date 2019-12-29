@@ -7,6 +7,13 @@ namespace recursive_fibonacci
         static void Main(string[] args)
         {
             // returns the nth fibonacci number from the fibonacci sequence using recursion
+            // TODO: remove the hard coded inputNumber
+            int inputNumber = 10;
+            // create an array of length inputNumber 
+            int[] fibNumbers = new int[inputNumber];
+            //and add the first and second number
+            fibNumbers[0] = 1;
+            fibNumbers[1] = 1;
             // check if the inputNumber is 1 or 2
             if(inputNumber == 1 || inputNumber == 2)
                 // set answer to 1
