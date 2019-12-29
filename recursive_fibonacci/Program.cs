@@ -13,7 +13,11 @@ namespace recursive_fibonacci
         }
 
         static int FindFibonacciNumber(int[] fibNumbers, int position, int current) {
-            
+            // check if current equals position - 1
+                // return fibNumbers[current - 1] + fibNumbers[current - 2]
+            // otherwise, set fibNumbers at current to ibNumbers[current - 1] + fibNumbers[current - 2]
+            // make a recursive call to FindFibonacciNumber
+            // passing fibNumbers, position and current + 1
         }
     }
 }
