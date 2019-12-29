@@ -13,5 +13,11 @@ namespace Book
         {
             this.title = title;
         }
+
+        public Book(string title, string author)
+        {
+            this.title = title;
+            this.author = author;
+        }
     }
 }
