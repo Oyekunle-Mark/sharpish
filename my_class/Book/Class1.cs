@@ -37,5 +37,10 @@ namespace Book
         {
             this.title = title;
         }
+
+        public void AssignWordCountFromText(string text)
+        {
+            wordCount = text.Split(' ').Length;
+        }
     }
 }
