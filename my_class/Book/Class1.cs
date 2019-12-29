@@ -27,5 +27,10 @@ namespace Book
             this.pages = pages;
             this.wordCount = wordCount;
         }
+
+        public string GetTitle()
+        {
+            return title;
+        }
     }
 }
