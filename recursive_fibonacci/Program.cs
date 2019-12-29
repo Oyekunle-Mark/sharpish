@@ -11,5 +11,9 @@ namespace recursive_fibonacci
                 // return 1
             // nthNumber will the result of calling FindFibonacciNumber
         }
+
+        static int FindFibonacciNumber(int[] fibNumbers, int position, int current) {
+            
+        }
     }
 }
