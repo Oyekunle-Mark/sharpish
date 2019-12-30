@@ -6,6 +6,7 @@ namespace color_class
     {
         public byte Red { get; set; }
         public byte Green { get; set; }
+        public byte Blue { get; set; }
 
         public Color(byte red, byte green, byte blue)
         {
@@ -21,16 +22,6 @@ namespace color_class
             this.green = green;
             this.blue = blue;
             this.alpha = alpha;
-        }
-
-        public byte GetBlue()
-        {
-            return blue;
-        }
-
-        public void SetBlue(byte blue)
-        {
-            this.blue = blue;
         }
 
         public byte GetGreen()
