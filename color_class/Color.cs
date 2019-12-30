@@ -11,14 +11,14 @@ namespace color_class
 
         public Color(byte red, byte green, byte blue)
         {
-            this.red = red;
-            this.green = green;
-            this.blue = blue;
+            Red = red;
+            Green = green;
+            Blue = blue;
         }
 
         public int FindGrayscale()
         {
-            return (red + green + blue) / 3;
+            return (Red + Green + Blue) / 3;
         }
     }
 }
