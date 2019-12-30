@@ -25,14 +25,24 @@ namespace color_class
             this.alpha = alpha;
         }
 
-        public int GetRed()
+        public byte GetRed()
         {
             return red;
         }
 
-        public void SetRed(int red)
+        public void SetRed(byte red)
         {
             this.red = red;
+        }
+
+        public byte GetBlue()
+        {
+            return blue;
+        }
+
+        public void SetBlue(byte blue)
+        {
+            this.blue = blue;
         }
     }
 }
