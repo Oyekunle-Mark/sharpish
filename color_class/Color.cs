@@ -65,7 +65,7 @@ namespace color_class
             this.alpha = alpha;
         }
 
-        public byte FindGrayscale()
+        public int FindGrayscale()
         {
             return (red + green + blue) / 3;
         }
