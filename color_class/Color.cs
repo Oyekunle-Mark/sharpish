@@ -44,5 +44,15 @@ namespace color_class
         {
             this.blue = blue;
         }
+
+        public byte GetGreen()
+        {
+            return green;
+        }
+
+        public void SetGreen(byte green)
+        {
+            this.green = green;
+        }
     }
 }
