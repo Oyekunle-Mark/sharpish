@@ -10,5 +10,10 @@ namespace ListClass
         {
             items = new T[0];
         }
+
+        public T GetItem(int index)
+        {
+            return items[index];
+        }
     }
 }
