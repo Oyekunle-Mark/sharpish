@@ -4,12 +4,12 @@ namespace color_class
 {
     class Color
     {
-        private int red;
-        private int green;
-        private int blue;
-        private int alpha;
+        private byte red;
+        private byte green;
+        private byte blue;
+        private byte alpha;
 
-        public Color(int red, int green, int blue)
+        public Color(byte red, byte green, byte blue)
         {
             this.red = red;
             this.green = green;
@@ -17,7 +17,7 @@ namespace color_class
             this.alpha = 255;
         }
 
-        public Color(int red, int green, int blue, int alpha)
+        public Color(byte red, byte green, byte blue, byte alpha)
         {
             this.red = red;
             this.green = green;
