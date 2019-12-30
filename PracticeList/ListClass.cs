@@ -15,5 +15,16 @@ namespace ListClass
         {
             return items[index];
         }
+
+        public void Add(T item)
+        {
+            T[] newItems = new T[items.Length + 1];
+
+            for (int i = 0; i < items.Length; i++)
+                newItems[i] = items[i];
+
+            newItems[items.Length] = item;
+            items = newItems;
+        }
     }
 }
