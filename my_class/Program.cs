@@ -6,8 +6,7 @@ namespace my_class
     {
         static void Main(string[] args)
         {
-            Book.Book book = new Book.Book("Things Fall Apart");
-            Console.WriteLine(book.GetTitle());
+
         }
     }
 }
