@@ -54,5 +54,15 @@ namespace color_class
         {
             this.green = green;
         }
+
+        public byte GetAlpha()
+        {
+            return alpha;
+        }
+
+        public void SetAlpha(byte alpha)
+        {
+            this.alpha = alpha;
+        }
     }
 }
