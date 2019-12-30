@@ -14,6 +14,15 @@ namespace color_class
             this.red = red;
             this.green = green;
             this.blue = blue;
+            this.alpha = 255;
+        }
+
+        public Color(int red, int green, int blue, int alpha)
+        {
+            this.red = red;
+            this.green = green;
+            this.blue = blue;
+            this.alpha = alpha;
         }
     }
 }
