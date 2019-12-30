@@ -24,5 +24,15 @@ namespace color_class
             this.blue = blue;
             this.alpha = alpha;
         }
+
+        public int GetRed()
+        {
+            return red;
+        }
+
+        public void SetRed(int red)
+        {
+            this.red = red;
+        }
     }
 }
