@@ -13,6 +13,13 @@ namespace PracticeList
             list.Add(3);
 
             Console.WriteLine($"The third item is {list.GetItem(2)}");
+
+            PracticeList<string> listString = new PracticeList<string>();
+            listString.Add("Hello");
+            listString.Add("World");
+            listString.Add("!");
+
+            Console.WriteLine($"The third item is {listString.GetItem(2)}");
         }
     }
 }
