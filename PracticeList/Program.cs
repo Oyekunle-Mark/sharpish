@@ -1,4 +1,5 @@
 ﻿using System;
+using ListClass;
 
 namespace PracticeList
 {
@@ -6,7 +7,12 @@ namespace PracticeList
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            PracticeList<int> list = new PracticeList<int>();
+            list.Add(1);
+            list.Add(2);
+            list.Add(3);
+
+            Console.WriteLine($"The third item is {list.GetItem(2)}");
         }
     }
 }
