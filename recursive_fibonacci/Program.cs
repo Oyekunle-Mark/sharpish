@@ -33,6 +33,13 @@ namespace recursive_fibonacci
             Console.WriteLine($"The {inputNumber}th Fibonacci number is: {answer}");
         }
 
+        /// <summary>
+        /// Returns the nth Fibonacci number from the Fibonacci sequence.
+        /// </summary>
+        /// <param name="fibNumbers">The array that holds the numbers as they are built</param>
+        /// <param name="position">The nth number needed</param>
+        /// <param name="current">Current nth number being built</param>
+        /// <returns></returns>
         static int FindFibonacciNumber(int[] fibNumbers, int position, int current)
         {
             // check if current equals position - 1
