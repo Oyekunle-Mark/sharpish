@@ -1,3 +1,3 @@
 # Sharpish
 
-Some programs I wrote as I code along to the book *C# Player Guide*.
+My code along programs to the book *C# Player Guide*.
