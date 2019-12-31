@@ -2,6 +2,10 @@ using System;
 
 namespace ListClass
 {
+    /// <summary>
+    ///     Creates a test List class instance
+    /// </summary>
+    /// <typeparam name="T">Generic type of List item</typeparam>
     class PracticeList<T>
     {
         private T[] items;
