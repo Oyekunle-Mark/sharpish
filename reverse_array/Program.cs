@@ -50,6 +50,10 @@ namespace reverse_array
             }
         }
 
+        /// <summary>
+        /// Prints every item in the array to the console one item at a time
+        /// </summary>
+        /// <param name="array">Array to be printed</param>
         static void PrintArray(int[] array)
         {
             foreach (int value in array)
