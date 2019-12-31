@@ -14,6 +14,11 @@ namespace reverse_array
             PrintArray(numberArray);
         }
 
+        /// <summary>
+        /// Generates an array of int.
+        /// </summary>
+        /// <param name="length">Length of the array to be generated.</param>
+        /// <returns>The generated array</returns>
         static int[] GenerateNumbers(int length)
         {
             int[] numbers = new int[length];
