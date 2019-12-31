@@ -8,9 +8,6 @@ namespace ListClass
 
         public PracticeList()
         {
-            /// <summary>
-            ///     Creates a poor man's List class
-            /// </summary>
             items = new T[0];
         }
 
