@@ -15,6 +15,11 @@ namespace ListClass
             items = new T[0];
         }
 
+        /// <summary>
+        /// Get's an item from the list
+        /// </summary>
+        /// <param name="index">The position of the item in the list</param>
+        /// <returns>The item at the position on index in list</returns>
         public T GetItem(int index)
         {
             return items[index];
