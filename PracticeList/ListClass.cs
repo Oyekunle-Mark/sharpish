@@ -25,6 +25,10 @@ namespace ListClass
             return items[index];
         }
 
+        /// <summary>
+        /// Adds an item to the list
+        /// </summary>
+        /// <param name="item">The item to be added</param>
         public void Add(T item)
         {
             T[] newItems = new T[items.Length + 1];
