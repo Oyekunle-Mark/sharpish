@@ -16,7 +16,7 @@ namespace ListClass
         }
 
         /// <summary>
-        /// Get's an item from the list
+        /// Gets an item from the list
         /// </summary>
         /// <param name="index">The position of the item in the list</param>
         /// <returns>The item at the position on index in list</returns>
