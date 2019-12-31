@@ -30,6 +30,10 @@ namespace reverse_array
             return numbers;
         }
 
+        /// <summary>
+        /// Reverses the array
+        /// </summary>
+        /// <param name="array">The array to be reversed</param>
         static void ReverseArray(int[] array)
         {
             int start = 0;
