@@ -20,9 +20,19 @@ namespace linq
                 orderby person.Age descending
                 select person;
 
-            foreach (Person p in adults) {
+            foreach (Person p in adults)
+            {
                 p.PrintPerson();
             }
         }
+    }
+
+    public class Person
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Age { get; set; }
+
+        public void PrintPerson() => Console.WriteLine($"{FirstName}, {LastName}");
     }
 }
