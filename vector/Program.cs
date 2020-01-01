@@ -11,6 +11,9 @@ namespace vector
 
             Vector newVector = v1 + v2;
             newVector.PrintVector();
+
+            Vector newVector = v1 - v2;
+            newVector.PrintVector();
         }
     }
 }
