@@ -17,6 +17,9 @@ namespace vector
 
             Vector negateVector = !minusVector;
             negateVector.PrintVector();
+
+            Vector multiplyVector = v2 * 2.0;
+            multiplyVector.PrintVector();
         }
     }
 }
