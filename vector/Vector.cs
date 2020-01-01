@@ -4,11 +4,11 @@ namespace vector
 {
     class Vector
     {
-        public int X { get; set; }
-        public int Y { get; set; }
-        public int Z { get; set; }
+        public double X { get; set; }
+        public double Y { get; set; }
+        public double Z { get; set; }
 
-        public Vector(int x, int y, int z)
+        public Vector(double x, double y, double z)
         {
             X = x;
             Y = y;
