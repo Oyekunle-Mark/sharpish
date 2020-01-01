@@ -8,5 +8,10 @@ namespace frog_race
         {
             Console.WriteLine("Hello World!");
         }
+
+        public static void FrogRace(object input)
+        {
+            
+        }
     }
 }
