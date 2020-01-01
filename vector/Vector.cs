@@ -39,5 +39,10 @@ namespace vector
         {
             return new Vector(v.X / scalar, v.Y / scalar, v.Z / scalar);
         }
+
+        public void PrintVector(Vector v)
+        {
+            Console.WriteLine(X, Y, Z);
+        }
     }
 }
