@@ -18,6 +18,10 @@ namespace linq
                 from person in allPeople
                 where person.Age >= 18
                 select person;
+
+            foreach (Person p in adults) {
+                p.PrintPerson();
+            }
         }
     }
 }

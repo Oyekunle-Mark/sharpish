@@ -8,6 +8,6 @@ namespace linq
         public string LastName { get; set; }
         public int Age { get; set; }
 
-        public void PrintPerson() => Console.WriteLine($"{Firstname}, {LastName}");
+        public void PrintPerson() => Console.WriteLine($"{FirstName}, {LastName}");
     }
 }
