@@ -10,6 +10,7 @@ namespace vector
             Vector v2 = new Vector(3, 5, 9);
 
             Vector newVector = v1 + v2;
+            newVector.PrintVector();
         }
     }
 }
