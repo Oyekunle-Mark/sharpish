@@ -20,6 +20,9 @@ namespace vector
 
             Vector multiplyVector = v2 * 2.0;
             multiplyVector.PrintVector();
+
+            Vector divideVector = v1 / 3;
+            divideVector.PrintVector();
         }
     }
 }
