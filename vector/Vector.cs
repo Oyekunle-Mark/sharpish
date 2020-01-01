@@ -40,6 +40,9 @@ namespace vector
             return new Vector(v.X / scalar, v.Y / scalar, v.Z / scalar);
         }
 
+        /// <summary>
+        /// Pretty prints the values of the Vector instance variables
+        /// </summary>
         public void PrintVector()
         {
             Console.WriteLine($"(X: {X}, Y: {Y}, Z: {Z})");
