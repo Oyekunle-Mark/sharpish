@@ -42,7 +42,7 @@ namespace vector
 
         public void PrintVector()
         {
-            Console.WriteLine(X, Y, Z);
+            Console.WriteLine($"(X: {X}, Y: {Y}, Z: {Z})");
         }
     }
 }
