@@ -1,4 +1,5 @@
 ﻿using System;
+using Extensions;
 
 namespace extension_method
 {
@@ -6,7 +7,10 @@ namespace extension_method
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string text = "I am invincible. Hahahahahaaaa!!! Oh!";
+            int len = text.CountWords();
+
+            Console.WriteLine($"{text} has {len} words.");
         }
     }
 }
