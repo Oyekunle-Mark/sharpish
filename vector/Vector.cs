@@ -30,7 +30,7 @@ namespace vector
             return new Vector(-v.X, -v.Y, -v.Z);
         }
 
-        public static Vector operator *(Vector v, int scalar)
+        public static Vector operator *(Vector v, double scalar)
         {
             return new Vector(v.X * scalar, v.Y * scalar, v.Z * scalar);
         }
