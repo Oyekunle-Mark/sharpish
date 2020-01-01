@@ -7,7 +7,18 @@ namespace frog_race
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Thread t1 = new Thread(FrogRace);
+            t1.Start(1);
+
+            Thread t2 = new Thread(FrogRace);
+            t2.Start(2);
+
+            Thread t3 = new Thread(FrogRace);
+            t3.Start(3);
+
+            t1.Join();
+            t2.Join();
+            t3.Join();
         }
 
         public static void FrogRace(object input)
