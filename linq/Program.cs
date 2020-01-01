@@ -7,7 +7,11 @@ namespace linq
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            List<Person> allPeople = new List<Person> {
+                new Person() { FirstName = "Mark", LastName = "Fish", Age = 21 },
+                new Person() { FirstName = "Tom", LastName = "Jerry", Age = 12 },
+                new Person() { FirstName = "Egunjobi", LastName = "Alabi", Age = 34 }
+            };
         }
     }
 
