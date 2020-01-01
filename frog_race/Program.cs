@@ -29,7 +29,7 @@ namespace frog_race
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine($"Frog #{frogNumber} jumped!");
-                Thread.Sleep(random.Next(1) + 1);
+                Thread.Sleep((random.Next(1) + 1) * 1000);
             }
 
             Console.WriteLine($"Frog #{frogNumber} finished!");
