@@ -13,6 +13,11 @@ namespace linq
                 new Person() { FirstName = "Tom", LastName = "Jerry", Age = 12 },
                 new Person() { FirstName = "Egunjobi", LastName = "Alabi", Age = 34 }
             };
+
+            IEnumerable<Person> adults =
+                from person in allPeople
+                where person.Age >= 18
+                select person;
         }
     }
 }
