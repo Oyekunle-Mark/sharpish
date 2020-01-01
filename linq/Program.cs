@@ -17,6 +17,7 @@ namespace linq
             IEnumerable<Person> adults =
                 from person in allPeople
                 where person.Age >= 18
+                orderby person.Age descending
                 select person;
 
             foreach (Person p in adults) {
