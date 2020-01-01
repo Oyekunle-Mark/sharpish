@@ -29,5 +29,10 @@ namespace vector
         {
             return new Vector(-v.X, -v.Y, -v.Z);
         }
+
+        public static Vector operator *(Vector v, int scalar)
+        {
+            return new Vector(v.X * scalar, v.Y * scalar, v.Z * scalar);
+        }
     }
 }
